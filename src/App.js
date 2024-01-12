@@ -15,7 +15,7 @@ import "./App.scss";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/premium2/build">
       <Switch>
         <Route path="/" exact>
           <Homepage />
