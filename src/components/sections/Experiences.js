@@ -5,48 +5,34 @@ import Timeline from "../elements/Timeline";
 const educationData = [
   {
     id: 1,
-    title: "Acamedic Degree",
-    years: "2019 - Present",
+    title: "BA Global Business",
+    years: "2019-2023",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Developed a comprehensive understanding of business practices, strategy development, and market dynamics.",
   },
   {
     id: 2,
-    title: "Bachelor’s Degree",
-    years: "2017 - 2013",
+    title: "Leaving Certificate Business",
+    years: "2014 - 2019",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
-  },
-  {
-    id: 3,
-    title: "Honours Degree",
-    years: "2013 - 2009",
-    content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Developed proficiency in core business principles, analytical reasoning and baisc business dynamics.",
   },
 ];
 
 const experienceData = [
   {
     id: 1,
-    title: "Web Designer",
-    years: "2019 - Present",
+    title: "Business Developmet Intern at KerryGold",
+    years: "Summer 2022",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Helped organize and coordinate promotional events to increase brand awareness. ",
   },
   {
     id: 2,
-    title: "Front-End Developer",
-    years: "2017 - 2013",
+    title: "Marketing Intern at PWC",
+    years: "Summer 2021",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
-  },
-  {
-    id: 3,
-    title: "Back-End Developer",
-    years: "2013 - 2009",
-    content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Assisted in the development and execution of marketing campaigns.",
   },
 ];
 

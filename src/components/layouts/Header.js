@@ -71,7 +71,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 smooth={true}
                 duration={500}
               >
-                <i className="icon-briefcase"></i>Services
+                <i className="icon-briefcase"></i>Expertise
               </Link>
             </li>
             <li>
@@ -93,29 +93,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 smooth={true}
                 duration={500}
               >
-                <i className="icon-layers"></i>Works
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="active"
-                to="section-blogs"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <i className="icon-note"></i>Blog
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="active"
-                to="section-contact"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <i className="icon-bubbles"></i>Contact
+                <i className="icon-layers"></i>Projects
               </Link>
             </li>
           </ul>
@@ -123,7 +101,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
 
         <div className="footer">
           <span className="copyright">
-            &copy; {new Date().getFullYear()} Bolby Template.
+            &copy; {new Date().getFullYear()} Alex Baker.
           </span>
         </div>
       </header>

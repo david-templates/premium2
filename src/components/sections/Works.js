@@ -10,120 +10,50 @@ const filters = [
   },
   {
     id: 2,
-    text: "creative",
+    text: "Case studies",
   },
   {
     id: 3,
-    text: "art",
-  },
-  {
-    id: 4,
-    text: "design",
-  },
-  {
-    id: 5,
-    text: "branding",
-  },
+    text: "Business Reports",
+  }
 ];
 
 const allData = [
   {
     id: 1,
-    title: "Project Managment Illustration",
-    category: "art",
-    image: "images/works/1.svg",
-    popupLink: ["images/works/1.svg"],
+    title: "Case Study 1",
+    category: "case studies",
+    image: "images/works/4.svg",
   },
   {
     id: 2,
-    title: "Guest App Walkthrough Screens",
-    category: "creative",
-    image: "images/works/2.svg",
-    popupLink: [
-      "images/works/2.svg",
-      "images/works/5.svg",
-      "images/works/6.svg",
-    ],
+    title: "Case Study 2",
+    category: "case studies",
+    image: "images/works/1.svg",
   },
   {
     id: 3,
-    title: "Delivery App Wireframe",
-    category: "branding",
-    image: "images/works/3.svg",
-    popupLink: ["https://www.youtube.com/watch?v=qf9z4ulfmYw"],
+    title: "Case Study 3",
+    category: "case studies",
+    image: "images/works/2.svg",
   },
   {
     id: 4,
-    title: "Onboarding Motivation",
-    category: "creative",
-    image: "images/works/4.svg",
-    popupLink: [
-      "https://www.youtube.com/watch?v=URVHRhBSjj8",
-      "https://www.youtube.com/watch?v=qf9z4ulfmYw",
-    ],
+    title: "Business Report 1",
+    category: "business reports",
+    image: "images/works/6.svg",
   },
   {
     id: 5,
-    title: "iMac Mockup Design",
-    category: "art",
+    title: "Business Report 2",
+    category: "business reports",
     image: "images/works/5.svg",
-    popupLink: ["images/works/5.svg"],
   },
   {
     id: 6,
-    title: "Game Store App Concept",
-    category: "design",
-    image: "images/works/6.svg",
-    link: "https://dribbble.com",
-  },
-  {
-    id: 7,
-    title: "Project Managment Illustration",
-    category: "art",
+    title: "Business Report 3",
+    category: "business reports",
     image: "images/works/3.svg",
-    link: "https://pinterest.com",
-  },
-  {
-    id: 8,
-    title: "Guest App Walkthrough Screens",
-    category: "design",
-    image: "images/works/1.svg",
-    popupLink: ["images/works/1.svg"],
-  },
-  {
-    id: 9,
-    title: "Delivery App Wireframe",
-    category: "branding",
-    image: "images/works/4.svg",
-    popupLink: ["images/works/4.svg"],
-  },
-  {
-    id: 10,
-    title: "Game Store App Concept",
-    category: "design",
-    image: "images/works/6.svg",
-    link: "https://dribbble.com",
-  },
-  {
-    id: 11,
-    title: "Project Managment Illustration",
-    category: "art",
-    image: "images/works/3.svg",
-    link: "https://pinterest.com",
-  },
-  {
-    id: 12,
-    title: "Guest App Walkthrough Screens",
-    category: "design",
-    image: "images/works/1.svg",
-    popupLink: ["images/works/1.svg"],
-  },
-  {
-    id: 13,
-    title: "Delivery App Wireframe",
-    category: "branding",
-    image: "images/works/4.svg",
-    popupLink: ["images/works/4.svg"],
   },
 ];
 
@@ -179,7 +109,7 @@ function Works() {
   return (
     <section id="works">
       <div className="container">
-        <Pagetitle title="Recent Works" />
+        <Pagetitle title="Projects" />
         {/* Start Portfolio Filters */}
         <ScrollAnimation
           animateIn="fadeInUp"

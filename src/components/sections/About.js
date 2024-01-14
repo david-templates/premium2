@@ -8,25 +8,25 @@ const aboutContent = {
   name: "Bolby",
   avatarImage: "/images/avatar-2.svg",
   content:
-    "I am Bolby Doe, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at WordPress.",
+    "Hello, I'm Alex Baker, a recent business graduate based around Dublin. I have a strong background in business administration with a focus on strategic management and marketing. My academic journey has equipped me with a deep understanding of business dynamics and market trends, allowing me to effectively analyze and develop business strategies.",
 };
 
 const progressData = [
   {
     id: 1,
-    title: "Development",
+    title: "Strategic Planning",
     percantage: 85,
     progressColor: "#FFD15C",
   },
   {
     id: 2,
-    title: "UI/UX Design",
+    title: "Market Analysis",
     percantage: 95,
     progressColor: "#FF4C60",
   },
   {
     id: 3,
-    title: "Photography",
+    title: "Financial Management",
     percantage: 70,
     progressColor: "#6C6CE5",
   },
@@ -35,26 +35,26 @@ const progressData = [
 const counterData = [
   {
     id: 1,
-    title: "Projects completed",
-    count: 198,
+    title: "Business Case Studies Analysed",
+    count: "30",
     icon: "icon-fire",
   },
   {
     id: 2,
-    title: "Cup of coffee",
-    count: 5670,
+    title: "Hours of Market Research",
+    count: 1200,
     icon: "icon-cup",
   },
   {
     id: 3,
-    title: "Satisfied clients",
-    count: 427,
+    title: "Business individuals interviewed",
+    count: 50,
     icon: "icon-people",
   },
   {
     id: 4,
-    title: "Nominees winner",
-    count: 35,
+    title: "Project distinctions",
+    count: 8,
     icon: "icon-badge",
   },
 ];
@@ -78,7 +78,7 @@ function About() {
                 <div className="col-md-6">
                   <p>{aboutContent.content}</p>
                   <div className="mt-3">
-                    <a href="!#" className="btn btn-default">
+                    <a href="javascript:void(0);" className="btn btn-default">
                       Download CV
                     </a>
                   </div>

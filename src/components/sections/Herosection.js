@@ -26,14 +26,14 @@ function Herosection(props) {
         <div className="intro">
           <img src="images/avatar-1.svg" alt="Bolby" className="mb-4" />
 
-          <h1 className="mb-2 mt-0">Bolby Doe</h1>
+          <h1 className="mb-2 mt-0">Alex Baker</h1>
           <p>
             I'm a{" "}
             <Typed
               strings={[
-                "UI/UX designer ",
-                "Front-End developer",
-                "Photography lover",
+                "Business graduate ",
+                "Entrepreneur",
+                "Marketing enthusiast",
               ]}
               typeSpeed={80}
               backSpeed={40}
@@ -46,43 +46,18 @@ function Herosection(props) {
 
           <ul className="social-icons light list-inline mb-0 mt-4">
             <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-instagram"></i>
+              <a href="javascript:void(0);">
+                <i className="fa fa-envelope"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-behance"></i>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-dribbble"></i>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-pinterest-p"></i>
+              <a href="javascript:void(0);">
+                <i className="fab fa-linkedin"></i>
               </a>
             </li>
           </ul>
 
-          <div className="mt-4">
-            <Link
-              className="btn btn-default"
-              to="section-contact"
-              spy={true}
-              smooth={true}
-              duration={500}
-            >
-              Hire me
-            </Link>
-          </div>
+
         </div>
 
         <div className="scroll-down">
