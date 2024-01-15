@@ -25,7 +25,7 @@ function Homepage() {
   return (
     <>
       <Header
-        logoSource="/images/logo.svg"
+        logoSource="/images/canva_fontsize37px_cropped.png"
         toggleMenu={toggleMenu}
         headerToggler={headerToggler}
       />
