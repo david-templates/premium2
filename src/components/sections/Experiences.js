@@ -22,7 +22,7 @@ const educationData = [
 const experienceData = [
   {
     id: 1,
-    title: "Business Developmet Intern at KerryGold",
+    title: "Business Development Intern at KerryGold",
     years: "Summer 2022",
     content:
       "Helped organize and coordinate promotional events to increase brand awareness. ",
